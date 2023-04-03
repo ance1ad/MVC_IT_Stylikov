@@ -24,3 +24,4 @@ app.Run();
 
 Console.WriteLine("Hello git");
 Console.ReadLine();
+Console.WriteLine("last str");
