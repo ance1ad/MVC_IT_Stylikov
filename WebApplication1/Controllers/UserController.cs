@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Utils;
 
 namespace WebApplication1.Controllers
 {
@@ -9,5 +10,11 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public IActionResult List()
+        {
+            var users = UserHelper.GetUsers();
+            return View(users);
+        }
+
     }
 }
