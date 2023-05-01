@@ -2,7 +2,7 @@
 
 namespace WebApplication1.Utils
 {
-    // как я понял тут будут хранится данные о пользователе
+    // как я понял тут будут хранится данные о пользователе, сюда обращаемся за данными
     public class UserHelper
     {
         public static IEnumerable<UserModel> GetUsers() =>
@@ -15,7 +15,7 @@ namespace WebApplication1.Utils
                     Age = 23
                 },
                 new UserModel()
-                {   Login = "Viktor123",
+                {   Login = "AlexLog",
                     Password= "pw12",
                     Name = "Alex",
                     Age = 21
